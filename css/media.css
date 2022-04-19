@@ -1,0 +1,85 @@
+@media (max-width: 1300px) {
+    header {
+        height: 120vh;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    nav .dropdown {
+        border-right: 0px;
+        margin-right: 5px;
+        padding-right: 5px;
+    }
+
+    header {
+        height: 500px;
+    }
+
+    header h2 {
+        font-size: 1.3rem;
+    }
+
+    header p {
+        color: #eeefef;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 34px;
+        width: 360px;
+        height: 180px;
+        letter-spacing: 2px;
+        text-align: center;
+        margin: auto;
+    }
+
+    header .btn {
+        display: block;
+        padding-top: 70px;
+    }
+
+    .mobile-img {
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    nav .dropdown {
+        border-right: 0px;
+        margin-right: 5px;
+        padding-right: 5px;
+    }
+
+    .mobile-img {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+    header p {
+        color: #eeefef;
+        font-weight: 400;
+        line-height: 40px;
+        width: 700px;
+        height: 180px;
+        letter-spacing: 2px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .mobile-img {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+    .mobile-img {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    header {
+        height: 700px;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {}
